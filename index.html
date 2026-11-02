@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Nikmati Milk TeaND, milk tea creamy dengan berbagai pilihan rasa premium dan bonus photocard menarik.">
+    <meta name="theme-color" content="#542f25">
+
+    <title>Milk TeaND - Brand Milk Tea Tercreamy Se-Indonesia</title>
+
+    <link rel="icon" href="Images/logo.avif" type="image/avif">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="beranda">
+        <div class="header-inner">
+            <a class="brand" href="#beranda" aria-label="Milk TeaND - Beranda">
+                <img class="logo" src="Images/logo.avif" alt="Logo Milk TeaND">
+
+                <div class="brand-text">
+                    <h1>Milk TeaND</h1>
+                    <p class="tagline">Milk Tea Tercreamy Se-Indonesia</p>
+                </div>
+            </a>
+
+            <button
+                class="nav-toggle"
+                id="navToggle"
+                type="button"
+                aria-label="Buka menu"
+                aria-expanded="false"
+                aria-controls="menuUtama"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="menuUtama" aria-label="Menu utama">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang Kami</a>
+                <a href="#produk">Katalog Produk</a>
+                <a href="#keunggulan">Keunggulan</a>
+                <a href="#pesan">Pemesanan</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- HERO / BERANDA -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="eyebrow">YOUR DAILY CUP OF HAPPINESS</span>
+
+                <h2>
+                    Satu Tegukan,
+                    <span>Sejuta Kebahagiaan.</span>
+                </h2>
+
+                <p>
+                    Rasakan perpaduan teh pilihan dan susu creamy
+                    yang siap menemani setiap mood kamu.
+                    Temukan rasa favoritmu bersama Milk TeaND!
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-utama" href="#produk">Jelajahi Menu</a>
+                    <a class="btn btn-outline" href="#tentang">Kenali Kami</a>
+                </div>
+
+                <p class="promo">
+                    <span class="promo-icon" aria-hidden="true">&#10003;</span>
+                    Setiap pembelian 1 cup berkesempatan mendapatkan
+                    photocard kolaborasi kami!
+                </p>
+            </div>
+
+            <div class="hero-decoration" aria-hidden="true">
+                <span class="hero-circle"></span>
+                <span class="hero-label">CREAMY<br>HAPPY<br>YUMMY!</span>
+                <span class="hero-sparkle">&#10022;</span>
+            </div>
+        </section>
+
+        <!-- TENTANG KAMI -->
+        <section class="section tentang" id="tentang">
+            <div class="section-heading">
+                <span class="eyebrow">OUR STORY</span>
+                <h2>Kenalan dengan <span>Milk TeaND</span></h2>
+                <p>
+                    Lebih dari sekadar milk tea, kami hadir untuk
+                    menemani cerita dan momen bahagia kamu.
+                </p>
+            </div>
+
+            <div class="about-card">
+                <div class="about-icon" aria-hidden="true">&#10022;</div>
+
+                <div class="about-content">
+                    <h3>Dibuat dengan Cinta, Disajikan dengan Rasa</h3>
+
+                    <p>
+                        Didirikan oleh Sjhseen di Jakarta, Milk TeaND
+                        berawal dari kecintaan mendalam terhadap seni
+                        menyeduh teh dan keinginan menghadirkan inovasi
+                        rasa yang dekat di hati masyarakat.
+                    </p>
+
+                    <p>
+                        Kami percaya bahwa secangkir milk tea bukan
+                        sekadar pelepas dahaga, melainkan teman setia
+                        yang mampu menemani berbagai momen berharga
+                        dalam hidup kamu, baik saat bersantai, bekerja,
+                        maupun berkumpul bersama orang tersayang.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- KATALOG PRODUK -->
+        <section class="section produk" id="produk">
+            <div class="section-heading">
+                <span class="eyebrow">OUR SIGNATURE MENU</span>
+                <h2>Temukan Rasa <span>Favoritmu!</span></h2>
+                <p>
+                    Pilih dari 20 varian milk tea dan minuman favorit
+                    yang paling cocok dengan mood kamu.
+                </p>
+            </div>
+
+            <div class="product-grid" id="productGrid"></div>
+        </section>
+
+        <!-- KEUNGGULAN -->
+        <section class="section keunggulan" id="keunggulan">
+            <div class="section-heading">
+                <span class="eyebrow">WHY MILK TEAND?</span>
+                <h2>Kenapa Harus <span>Milk TeaND?</span></h2>
+                <p>
+                    Setiap detail dirancang untuk menghadirkan
+                    pengalaman milk tea yang berkesan.
+                </p>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <span class="feature-icon" aria-hidden="true">&#10003;</span>
+                    <h3>Kualitas Terjamin</h3>
+                    <p>
+                        Kami mengutamakan kualitas produk dan pelayanan
+                        untuk memberikan pengalaman terbaik.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon" aria-hidden="true">&#10022;</span>
+                    <h3>Bahan Berkualitas</h3>
+                    <p>
+                        Mengutamakan teh pilihan dan susu berkualitas
+                        untuk menghasilkan rasa yang istimewa.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon" aria-hidden="true">&#9829;</span>
+                    <h3>Atur Tingkat Manis</h3>
+                    <p>
+                        Pilih tingkat kemanisan sesuai selera agar
+                        setiap tegukan terasa lebih personal.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon" aria-hidden="true">&#10047;</span>
+                    <h3>Super Creamy</h3>
+                    <p>
+                        Perpaduan susu dan teh menciptakan tekstur
+                        lembut yang memanjakan lidah.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon" aria-hidden="true">&#10038;</span>
+                    <h3>Aroma Teh Autentik</h3>
+                    <p>
+                        Karakter teh yang harum tetap terasa dalam
+                        perpaduan rasa susu yang seimbang.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- FORM PEMESANAN -->
+        <section class="section pemesanan" id="pesan">
+            <div class="section-heading">
+                <span class="eyebrow">LET'S MAKE YOU HAPPY</span>
+                <h2>Pesan Milk Tea <span>Favoritmu</span></h2>
+                <p>
+                    Tambahkan beberapa menu ke keranjang, lalu kirim
+                    semuanya sekaligus melalui WhatsApp.
+                </p>
+            </div>
+
+            <div class="form-card">
+                <form class="form" id="formPesan" action="#" method="post" novalidate>
+                    <div class="form-grid">
+                        <div class="form-row">
+                            <label for="nama">Nama Lengkap</label>
+                            <input
+                                type="text"
+                                id="nama"
+                                name="nama"
+                                placeholder="Masukkan nama kamu"
+                                autocomplete="name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-row">
+                            <label for="whatsapp">Nomor WhatsApp</label>
+                            <input
+                                type="tel"
+                                id="whatsapp"
+                                name="whatsapp"
+                                placeholder="08xxxxxxxxxx"
+                                autocomplete="tel"
+                                inputmode="tel"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-row form-row-full">
+                            <label for="photocard">Pilihan Photocard (opsional)</label>
+                            <input
+                                type="text"
+                                id="photocard"
+                                name="photocard"
+                                placeholder="Contoh: Baby Monster atau Hearts2Hearts"
+                            >
+                        </div>
+
+                        <div class="form-row form-row-full">
+                            <label for="catatan">Catatan Tambahan</label>
+                            <textarea
+                                id="catatan"
+                                name="catatan"
+                                rows="4"
+                                placeholder="Topping, tingkat kemanisan, atau permintaan khusus..."
+                            ></textarea>
+                        </div>
+                    </div>
+
+                    <section class="cart" aria-labelledby="cartTitle">
+                        <div class="cart-heading">
+                            <h3 id="cartTitle">Keranjang Pesanan</h3>
+                            <button type="button" class="cart-clear" id="clearCart">Kosongkan</button>
+                        </div>
+                        <p class="cart-empty" id="cartEmpty">Keranjang masih kosong. Tambahkan menu dari katalog.</p>
+                        <ul class="cart-items" id="cartItems" aria-label="Daftar menu di keranjang"></ul>
+                        <div class="order-total">
+                            <span>Total Pesanan</span>
+                            <strong id="cartTotal">Rp 0</strong>
+                        </div>
+                    </section>
+
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-utama" id="checkoutButton" disabled>Pesan via WhatsApp</button>
+                        <button type="reset" class="btn btn-sekunder">Reset Data Pelanggan</button>
+                    </div>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- KONTAK -->
+        <section class="section kontak" id="kontak">
+            <div class="section-heading">
+                <span class="eyebrow">SAY HELLO!</span>
+                <h2>Yuk, Terhubung dengan <span>Kami</span></h2>
+                <p>
+                    Ada pertanyaan atau ingin memesan?
+                    Kami siap membantu kamu.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <article class="contact-card">
+                    <span class="contact-icon" aria-hidden="true">&#9742;</span>
+                    <h3>WhatsApp / Telepon</h3>
+                    <p>0857-3456-2353</p>
+                </article>
+
+                <article class="contact-card">
+                    <span class="contact-icon" aria-hidden="true">&#9993;</span>
+                    <h3>Email</h3>
+                    <p>sales@milkteand.com</p>
+                </article>
+
+                <article class="contact-card">
+                    <span class="contact-icon" aria-hidden="true">&#9719;</span>
+                    <h3>Jam Operasional</h3>
+                    <p>Setiap hari, 08.00–23.00 WIB</p>
+                </article>
+
+                <article class="contact-card">
+                    <span class="contact-icon" aria-hidden="true">&#9873;</span>
+                    <h3>Alamat Toko</h3>
+                    <p>Jl. Pondok Indah No. 45, Komplek Teratai, Jakarta</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <a class="footer-brand" href="#beranda">
+            <img class="logo logo-footer" src="Images/logo.avif" alt="Logo Milk TeaND" loading="lazy">
+            <span>Milk TeaND</span>
+        </a>
+
+        <p>
+            Satu tegukan, sejuta kebahagiaan.
+            <br>
+            &copy; 2026 Milk TeaND. All rights reserved.
+        </p>
+
+        <a class="back-to-top" href="#beranda">Kembali ke atas &#8593;</a>
+    </footer>
+
+    <noscript>
+        <p style="text-align:center;padding:12px;">
+            Aktifkan JavaScript untuk melihat katalog dan menggunakan keranjang WhatsApp.
+        </p>
+    </noscript>
+
+</body>
+</html>
